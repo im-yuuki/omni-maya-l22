@@ -12,18 +12,18 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit some common Omni stuff.
 $(call inherit-product, vendor/omni/config/common.mk)
 
-# Inherit from maya-l22 device
-$(call inherit-product, device/huawei/maya-l22/device.mk)
+# Inherit from maya device
+$(call inherit-product, device/huawei/maya/device.mk)
 
-PRODUCT_DEVICE := maya-l22
-PRODUCT_NAME := omni_maya-l22
+PRODUCT_DEVICE := maya
+PRODUCT_NAME := omni_maya
 PRODUCT_BRAND := huawei
-PRODUCT_MODEL := maya-l22
+PRODUCT_MODEL := maya
 PRODUCT_MANUFACTURER := huawei
 
 PRODUCT_GMS_CLIENTID_BASE := android-huawei
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="full_maya-l22-user 6.0 MRA58K 1495900354 test-keys"
+    PRIVATE_BUILD_DESC="full_maya-user 6.0 MRA58K 1495900354 test-keys"
 
-BUILD_FINGERPRINT := huawei/full_maya-l22/maya-l22:6.0/MRA58K/1495900354:user/test-keys
+BUILD_FINGERPRINT := huawei/full_maya/maya:6.0/MRA58K/1495900354:user/test-keys

@@ -5,6 +5,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-add_lunch_combo omni_maya-l22-user
-add_lunch_combo omni_maya-l22-userdebug
-add_lunch_combo omni_maya-l22-eng
+add_lunch_combo omni_maya-user
+add_lunch_combo omni_maya-userdebug
+add_lunch_combo omni_maya-eng

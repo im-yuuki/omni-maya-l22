@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_maya-l22.mk
+    $(LOCAL_DIR)/omni_maya.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_maya-l22-user \
-    omni_maya-l22-userdebug \
-    omni_maya-l22-eng
+    omni_maya-user \
+    omni_maya-userdebug \
+    omni_maya-eng

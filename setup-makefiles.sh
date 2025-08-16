@@ -8,7 +8,7 @@
 
 set -e
 
-DEVICE=maya-l22
+DEVICE=maya
 VENDOR=huawei
 
 # Load extract_utils and do some sanity checks
