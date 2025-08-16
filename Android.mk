@@ -7,6 +7,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),maya-l22)
+ifeq ($(TARGET_DEVICE),maya)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 endif
